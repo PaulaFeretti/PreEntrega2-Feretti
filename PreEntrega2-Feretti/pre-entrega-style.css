@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    }
+
+    /* -----------Pagina Inicio----------- */
+
+    .bg-body-tertiary{
+        background-color: #ffffff;
+    }
+
+    .navbar-nav :hover{
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #000; 
+    }
+
+    .logo{
+        width: 60px;
+        
+    }
+    
+    .article-title {
+        text-align: center;
+        background: linear-gradient(289.68deg, #0ec6ad -10.45%, #d53e0f 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+        
+    .d-block-w-100{
+       padding: 2% 15% 2% 15%;
+        width: 100%;
+        height: 500px;
+
+    }
+
+    body{
+        background-color: rgb(238, 238, 240);
+        color: #000;
+        font-size: 21px;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        
+    }
+
+    .grid-container {
+        display: grid;
+        /* Definir la cantidad de filas y su tamaño (altura) | renglones */
+        grid-template-rows: repeat(20, 200px);
+        /* Definir la cantidad de columnas y su tamaño (ancho) */
+        grid-template-columns: repeat(5, 1fr); 
+    }
+
+
+    .grid-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .uno {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 5; 
+        padding: 7% 10% 2% 10%;
+         
+    }
+    
+    .dos {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .tres {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    } 
+
+    .cuatro {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 8;
+        padding: 7% 10% 2% 10%;
+
+    } 
+    .cuatroimg {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    } 
+
+    .cinco {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 6;
+        grid-row-end: 9;
+        padding: 7% 10% 2% 10%;
+    } 
+    .cincoimg {
+        grid-column-start: 1;
+        grid-column-end:3;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    } 
+
+    .sies {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 9;
+        grid-row-end:9;
+        padding: 7% 10% 2% 10%;
+    } 
+
+    .siete {
+        grid-column-start:1 ;
+        grid-column-end: 4;
+        grid-row-start: 10;
+        grid-row-end: 13;
+        padding: 7% 10% 2% 10%;
+    } 
+    .sieteimg {
+        grid-column-start:4 ;
+        grid-column-end:6 ;
+        grid-row-start: 10;
+        grid-row-end: 14;
+    } 
+
+    .ocho {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 14;
+        grid-row-end: 17;
+        padding: 7% 10% 2% 10%; 
+    } 
+    .ochoimg {
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 14;
+        grid-row-end: 17;
+    } 
+    
+    /* -----------Pagina Ciencia----------- */
+    .article-title-ciencia {
+        text-align: center;
+        background: linear-gradient(289.68deg, #c6ebd5 -10.45%, #117c6f 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+
+    
+
+    /* -----------Pagina tecnologia----------- */
+    .article-title-tecnologia {
+        text-align: center;
+        background: linear-gradient(289.68deg, #ecd4ea -10.45%, #511f52 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .video-tecnologia{
+        position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    }
+
+
+
+    /* -----------Pagina ingenieria----------- */
+    .article-title-ingenieria {
+        text-align: center;
+        background: linear-gradient(289.68deg, #fcaf67 -10.45%, #7e0306 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .probando{
+        background-color: #ce2424;
+    }
+
+
+
+    /* -----------Pagina matematica----------- */
+    .article-title-matematica {
+        text-align: center;
+        background: linear-gradient(289.68deg, #bce6ff -10.45%, #015c92 115.75%);
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    color: rgb(21, 200, 197);
+    margin-bottom: 2%;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.pag-ciencia {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(255, 3, 3);
+}
+
+.pag-tecnologia {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(16, 146, 38);
+}
+
+.pag-ingenieria {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(15, 224, 239);
+}
+
+.pag-matematica {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: rgb(11, 79, 240);
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+div img {
+    background-color: #333;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.p-futuro-stem {
+    text-align: center;
+    padding: 10% 5% 5% 10%;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+} */
